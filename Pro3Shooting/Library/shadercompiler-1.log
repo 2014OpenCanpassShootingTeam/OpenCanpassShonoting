@@ -1,0 +1,43 @@
+Base path: /Applications/Unity/Unity.app/Contents
+Pipe name: \\.\pipe\UnityShaderCompiler-1--1587400280
+Cmd: getPlatforms
+Cmd: preprocess
+  insize=5122 outsize=2085 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3341 outsize=743 kw=WATER_REFRACTIVE ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3341 outsize=1055 kw=WATER_REFRACTIVE ok=1
+Cmd: preprocess
+  insize=620 outsize=1383 ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4376 outsize=919 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4376 outsize=412 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2339 outsize=817 kw=POINT ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2339 outsize=584 kw=POINT ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=1998 outsize=524 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=1998 outsize=294 kw= ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4076 outsize=905 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4076 outsize=387 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=2339 outsize=560 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=2339 outsize=400 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=3341 outsize=636 kw=WATER_SIMPLE ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=3341 outsize=823 kw=WATER_SIMPLE ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4376 outsize=436 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4376 outsize=359 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=0 insize=4376 outsize=540 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=0 type=1 insize=4376 outsize=528 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
