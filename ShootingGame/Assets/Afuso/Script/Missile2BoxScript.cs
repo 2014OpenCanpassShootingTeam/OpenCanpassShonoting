@@ -5,7 +5,12 @@ public class Missile2BoxScript : MonoBehaviour {
 
 	public Transform missile2;
 	public Transform target;
-	public int a = 40;
+	//public int a = 40;
+	public float beforeTime = 0.0f;
+	public float Interval = 0.6f;
+	public float Level1Time = 0;
+	public float Level2Time = 90;
+	public float Level3Time = 120;
 	//public float x = 15.0f;
 
 	void Start(){
@@ -18,28 +23,33 @@ public class Missile2BoxScript : MonoBehaviour {
 
 		//transform.rotation = Quaternion.Euler(0,0,Random.Range(0,360));
 
+		beforeTime += Time.deltaTime;
+
 		transform.LookAt(target);
 
 		transform.Rotate (0,Random.Range(-40,40),0);
 
 		//Debug.Log (Time.time);
 
-		if(Time.time > 30 && Time.time < 59){
+		if(Time.time > Level2Time && Time.time <= Level3Time){
 
-			a = 30;
+			//a = 30;
+			Interval = 0.4f;
 			//Debug.Log("second");
-		}else if(Time.time > 60 ){
-			a = 20;
+		}else if(Time.time > Level3Time ){
+			//a = 20;
+			Interval = 0.3f;
 			//Debug.Log("third");
 		}
 
-		if(Time.frameCount % a == 0){
+		if(beforeTime > Interval){
 
-			//transform.rotation = Quaternion.Euler(90,0,0);
-			//transform.Rotate(0,0,Random.Range(-40,40));
 			Instantiate(missile2,transform.position,transform.rotation);
+			beforeTime = 0.0f;
 
 		}
+
+
 
 	}
 }

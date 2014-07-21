@@ -65,6 +65,8 @@
      <Compile Include="Assets\Afuso\Script\hensei1BoxScript.cs" />
      <Compile Include="Assets\Afuso\Script\hensei2BoxScript.cs" />
      <Compile Include="Assets\Afuso\Script\hensei3BoxScript.cs" />
+     <Compile Include="Assets\Afuso\Script\hensei4BoxScript.cs" />
+     <Compile Include="Assets\Afuso\Script\hensei5BoxScript.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
